@@ -21,10 +21,10 @@ timezone: Europe/Warsaw
 
 title: SmartHomeLab                    # the main title
 
-tagline: O SmartHome i HomeLab...      # it will display as the sub-title
+tagline: About SmartHome  and HomeLab...      # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  O SmartHome i HomeLab.
+  About SmartHome and HomeLab.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://smarthomelab.blog'
