@@ -1,0 +1,91 @@
+# The layout text of site
+
+# ----- Commons label -----
+
+layout:
+  post: Post
+  category: Kategoria
+  tag: Tag
+
+# The tabs of sidebar
+tabs:
+  # format: <filename_without_extension>: <value>
+  home: Home
+  categories: Kategorie
+  tags: Tagi
+  archives: Archiwum
+  about: O mnie
+
+# the text displayed in the search bar & search results
+search:
+  hint: szukaj
+  cancel: Anuluj
+  no_results: Ups! Nic nie znaleziono
+
+panel:
+  lastmod: Ostatnio zaktualizowane
+  trending_tags: Tagi na czasie
+  toc: Spis treści
+
+copyright:
+  # Shown at the bottom of the post
+  license:
+    template: Ten post jest objęty licencją :LICENSE_NAME udzieloną przez autora.
+    name: CC BY 4.0
+    link: https://creativecommons.org/licenses/by/4.0/
+
+  # Displayed in the footer
+  brief: Pewne prawa zastrzeżone.
+  verbose: >-
+    O ile nie zaznaczono inaczej, posty na blogu w tej witrynie podlegają
+    zasadom licencji Creative Commons Attribution 4.0 International (CC BY 4.0).
+
+meta: Używam :THEME dla :PLATFORM.
+
+not_found:
+  statement: Sorry, skopaliśmy link do tego zasobu lub zasób nie istnieje.
+
+notification:
+  update_found: Nowa wersja zawartości dostępna.
+  update: Odśwież
+
+# ----- Posts related labels -----
+
+post:
+  written_by: Przez
+  posted: Utworzone
+  updated: Zaktualizowane
+  words: słowa
+  pageview_measure: wyświetleń
+  read_time:
+    unit: min
+    prompt: czytania
+  relate_posts: Powiązane
+  share: Udostępnij
+  button:
+    next: Nowsze
+    previous: Starsze
+    copy_code:
+      succeed: Skopiowano!
+    share_link:
+      title: Kopiuj link
+      succeed: Skopiowano!
+
+# Date time format.
+# See: <http://strftime.net/>, <https://day.js.org/docs/en/display/format>
+df:
+  post:
+    strftime: "%b %e, %Y"
+    dayjs: "ll"
+  archives:
+    strftime: "%b"
+    dayjs: "MMM"
+
+# categories page
+categories:
+  category_measure:
+    singular: Kategoria
+    plural: Kategorie
+  post_measure:
+    singular: post
+    plural: posty
